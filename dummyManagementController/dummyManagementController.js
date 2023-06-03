@@ -1,10 +1,7 @@
 const productController = async (req, res)=>{
     try {
-        const {clientName} = req.body
-        res.json({
-            message:clientName
-        })
-        console.log(clientName);
+        console.log(req);
+       
         
     } catch (error) {
         res.json({
